@@ -4,3 +4,33 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+#title {
+  background-color: green;
+  height: 10vh;
+  width: 100%;
+}
+#nav-bar {
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+  width: 100%;
+}
+
+#flex-item-1 {
+  background-color: black;
+  flex: 1;
+}
+#flex-item-2 {
+  background-color: white;
+  flex: 1;
+}
+#flex-item-3 {
+  background-color: black;
+  flex: 1;
+}
+#flex-item-4 {
+  background-color: white;
+  flex: 1;
+}
