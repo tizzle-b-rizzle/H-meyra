@@ -7,11 +7,13 @@
 
 #title {
   align-items: center;
-  background-color: green;
+  background-color: white;
+  border: 1px solid black;
   display: flex;
   height: 10vh;
   justify-content: center;
   width: 100%;
+  font-family: "Newsreader", serif;
 }
 
 #title h1 {
@@ -26,24 +28,41 @@
 }
 
 #nav-item-1 {
+  align-items: center;
   background-color: black;
   cursor: pointer;
+  display: flex;
   flex: 1;
+  justify-content: center;
+}
+
+#music-link {
+  color: white;
+  text-decoration: none;
 }
 #nav-item-2 {
-  background-color: white;
-  cursor: pointer;
-  flex: 1;
-}
-#nav-item-3 {
+  align-items: center;
   background-color: black;
   cursor: pointer;
+  display: flex;
   flex: 1;
+  justify-content: center;
+}
+#nav-item-3 {
+  align-items: center;
+  background-color: black;
+  cursor: pointer;
+  display: flex;
+  flex: 1;
+  justify-content: center;
 }
 #nav-item-4 {
-  background-color: white;
+  align-items: center;
+  background-color: black;
   cursor: pointer;
+  display: flex;
   flex: 1;
+  justify-content: center;
 }
 
 #content {
@@ -52,18 +71,31 @@
   flex-direction: row;
   height: 80vh;
   width: 100%;
+  font-family: "Newsreader", serif;
+}
+
+#content h2 {
+  font-size: 3rem;
 }
 
 #main-article {
-  background-color: red;
+  background-color: white;
   flex: 5;
   padding: 30px;
+  width: 100%;
+  max-width: 100%;
+}
+
+#main-article p {
+  font-size: 2rem;
 }
 #side-part-container {
   background-color: blue;
   display: flex;
   flex: 3;
   flex-direction: column;
+  width: 100%;
+  max-width: 100%;
 }
 
 #side-item-1 {
@@ -71,49 +103,69 @@
   display: flex;
   flex: 1;
   flex-direction: column;
+  width: 100%;
+  max-width: 100%;
 }
 
 #side-item-1-heading {
   align-items: center;
-  background-color: green;
+  background-color: white;
   border: 1px solid black;
   display: flex;
   flex: 1;
   justify-content: center;
+  width: 100%;
+  max-width: 100%;
 }
 
 #side-item-1 h2 {
   font-size: 2rem;
 }
 #side-item-1-content {
-  background-color: orange;
+  align-items: center;
+  background-color: white;
+  border: 1px solid black;
+  display: flex;
   flex: 3;
-  font-size: 1.1rem;
+  font-size: 1rem;
   padding: 0.5rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  width: 100%;
+  max-width: 100%;
 }
 #side-item-2 {
   background-color: blue;
   display: flex;
   flex: 1;
   flex-direction: column;
+  width: 100%;
+  max-width: 100%;
 }
 #side-item-2-heading {
   align-items: center;
-  background-color: green;
+  background-color: white;
   border: 1px solid black;
   display: flex;
   flex: 1;
   justify-content: center;
+  width: 100%;
+  max-width: 100%;
 }
 
 #side-item-2 h2 {
   font-size: 2rem;
 }
 #side-item-2-content {
-  background-color: orange;
+  align-items: center;
+  background-color: white;
+  border: 1px solid black;
+  display: flex;
   flex: 3;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 0.5rem;
+  width: 100%;
+  max-width: 100%;
 }
 
 #side-item-3 {
@@ -125,21 +177,28 @@
 
 #side-item-3-heading {
   align-items: center;
-  background-color: green;
+  background-color: white;
   border: 1px solid black;
   display: flex;
   flex: 1;
   justify-content: center;
+  width: 100%;
+  max-width: 100%;
 }
 
 #side-item-3 h2 {
   font-size: 2rem;
 }
 #side-item-3-content {
-  background-color: orange;
+  align-items: center;
+  background-color: white;
+  border: 1px solid black;
+  display: flex;
   flex: 3;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 0.5rem;
+  width: 100%;
+  max-width: 100%;
 }
 
 #Tomris_Teacher {
