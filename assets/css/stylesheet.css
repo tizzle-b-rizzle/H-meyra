@@ -6,9 +6,16 @@
 }
 
 #title {
+  align-items: center;
   background-color: green;
+  display: flex;
   height: 10vh;
+  justify-content: center;
   width: 100%;
+}
+
+#title h1 {
+  font-size: 5rem;
 }
 #nav-bar {
   background-color: blue;
@@ -18,19 +25,125 @@
   width: 100%;
 }
 
-#flex-item-1 {
+#nav-item-1 {
   background-color: black;
+  cursor: pointer;
   flex: 1;
 }
-#flex-item-2 {
+#nav-item-2 {
   background-color: white;
+  cursor: pointer;
   flex: 1;
 }
-#flex-item-3 {
+#nav-item-3 {
   background-color: black;
+  cursor: pointer;
   flex: 1;
 }
-#flex-item-4 {
+#nav-item-4 {
   background-color: white;
+  cursor: pointer;
   flex: 1;
+}
+
+#content {
+  background-color: yellow;
+  display: flex;
+  flex-direction: row;
+  height: 80vh;
+  width: 100%;
+}
+
+#main-article {
+  background-color: red;
+  flex: 5;
+  padding: 30px;
+}
+#side-part-container {
+  background-color: blue;
+  display: flex;
+  flex: 3;
+  flex-direction: column;
+}
+
+#side-item-1 {
+  background-color: purple;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+#side-item-1-heading {
+  align-items: center;
+  background-color: green;
+  border: 1px solid black;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+#side-item-1 h2 {
+  font-size: 2rem;
+}
+#side-item-1-content {
+  background-color: orange;
+  flex: 3;
+  font-size: 1.1rem;
+  padding: 0.5rem;
+}
+#side-item-2 {
+  background-color: blue;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+#side-item-2-heading {
+  align-items: center;
+  background-color: green;
+  border: 1px solid black;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+#side-item-2 h2 {
+  font-size: 2rem;
+}
+#side-item-2-content {
+  background-color: orange;
+  flex: 3;
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
+#side-item-3 {
+  background-color: yellow;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+#side-item-3-heading {
+  align-items: center;
+  background-color: green;
+  border: 1px solid black;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+#side-item-3 h2 {
+  font-size: 2rem;
+}
+#side-item-3-content {
+  background-color: orange;
+  flex: 3;
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
+#Tomris_Teacher {
+  float: left;
+  height: 20vh;
+  width: 20vh;
 }
