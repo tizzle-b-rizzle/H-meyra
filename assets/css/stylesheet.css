@@ -20,7 +20,7 @@ html, body {
 
 #title {
   align-items: center;
-  background-color: white;
+  background-color: #f7f2d7;
   display: flex;
   font-family: "Newsreader", serif;
   height: 10vh;
@@ -62,7 +62,8 @@ html, body {
 
 
 .nav-item-class {
-  border:1px solid white;
+  border-left:1px solid white;
+  border-right:1px solid white;
 }
 
 .link {
@@ -78,6 +79,7 @@ html, body {
   justify-content: center;
   position:relative;
 }
+
 #nav-item-3 {
   align-items: center;
   background-color: black;
@@ -111,7 +113,7 @@ html, body {
 }
 
 #main-article {
-  background-color: white;
+  background-color: #f7f2d7;
   border:1px solid black;
   flex: 5;
   padding: 30px;
@@ -144,7 +146,7 @@ html, body {
 
 #side-item-1-heading {
   align-items: center;
-  background-color: white;
+  background-color: #f7f2d7;
   border: 1px solid black;
   display: flex;
   flex: 1;
@@ -158,7 +160,7 @@ html, body {
 }
 #side-item-1-content {
   align-items: center;
-  background-color: white;
+  background-color: #f7f2d7;
   border: 1px solid black;
   display: flex;
   flex: 3;
@@ -179,7 +181,7 @@ html, body {
 }
 #side-item-2-heading {
   align-items: center;
-  background-color: white;
+  background-color: #f7f2d7;
   border: 1px solid black;
   display: flex;
   flex: 1;
@@ -193,7 +195,7 @@ html, body {
 }
 #side-item-2-content {
   align-items: center;
-  background-color: white;
+  background-color: #f7f2d7;
   border: 1px solid black;
   display: flex;
   flex: 3;
@@ -212,7 +214,7 @@ html, body {
 
 #side-item-3-heading {
   align-items: center;
-  background-color: white;
+  background-color: #f7f2d7;
   border: 1px solid black;
   display: flex;
   flex: 1;
@@ -226,7 +228,7 @@ html, body {
 }
 #side-item-3-content {
   align-items: center;
-  background-color: white;
+  background-color: #f7f2d7;
   border: 1px solid black;
   display: flex;
   flex: 3;
