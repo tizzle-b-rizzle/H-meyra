@@ -1,6 +1,6 @@
 function navOneHighlight() {
   element = document.getElementById("nav-item-1");
-  element.style.animation = "backgroundChange 2s infinite";
+  element.style.backgroundColor = "#d9b08c";
   element.addEventListener("mouseout", function () {
     element.style.animation = "none";
     element.style.backgroundColor = "#d8c3a5";
@@ -8,7 +8,7 @@ function navOneHighlight() {
 }
 function navTwoHighlight() {
   element = document.getElementById("nav-item-2");
-  element.style.animation = "backgroundChange 2s infinite";
+  element.style.backgroundColor = "#d9b08c";
   element.addEventListener("mouseout", function () {
     element.style.animation = "none";
     element.style.backgroundColor = "#d8c3a5";
@@ -16,7 +16,7 @@ function navTwoHighlight() {
 }
 function navThreeHighlight() {
   element = document.getElementById("nav-item-3");
-  element.style.animation = "backgroundChange 2s infinite";
+  element.style.backgroundColor = "#d9b08c";
   element.addEventListener("mouseout", function () {
     element.style.animation = "none";
     element.style.backgroundColor = "#d8c3a5";
@@ -24,7 +24,7 @@ function navThreeHighlight() {
 }
 function navFourHighlight() {
   element = document.getElementById("nav-item-4");
-  element.style.animation = "backgroundChange 2s infinite";
+  element.style.backgroundColor = "#d9b08c";
   element.addEventListener("mouseout", function () {
     element.style.animation = "none";
     element.style.backgroundColor = "#d8c3a5";
