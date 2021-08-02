@@ -9,7 +9,7 @@ html,
 body {
   background-color: white;
   height: 100%;
-  max-height: 100%;
+  max-height: auto;
   max-width: 100%;
   width: 100%;
   top: 0;
@@ -22,7 +22,6 @@ body {
 #title {
   align-items: center;
   background-color: #d9b08c;
-  /* animation: backgroundChange 20s infinite; */
   display: flex;
   font-family: "Newsreader", serif;
   height: 10vh;
@@ -79,6 +78,7 @@ body {
 
 .link {
   color: black;
+  font-size: 30px;
   text-decoration: none;
 }
 #nav-item-2 {
@@ -271,5 +271,41 @@ body {
 
   #Tomris_Teacher {
     margin-right: 20px;
+  }
+
+  .link {
+    font-size: 28px;
+  }
+
+  @media screen and (max-width: 700px) {
+    .link {
+      font-size: 24px;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .link {
+      font-size: 20px;
+    }
+    #title h1 {
+      font-size: 40px;
+    }
+    #side-item-1-heading h2,
+    #side-item-2-heading h2,
+    #side-item-3-heading h2 {
+      font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .link {
+      font-size: 18px;
+    }
+    #main-article h2 {
+      font-size: 40px;
+    }
+  }
+  @media screen and (max-width: 380px) {
+    .link {
+      font-size: 16px;
+    }
   }
 }
