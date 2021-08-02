@@ -294,6 +294,12 @@ body {
     #side-item-3-heading h2 {
       font-size: 20px;
     }
+
+    #side-item-1-heading,
+    #side-item-2-heading,
+    #side-item-3-heading {
+      min-height: 50px;
+    }
   }
   @media screen and (max-width: 450px) {
     .link {
