@@ -22,12 +22,25 @@ body {
 #title {
   align-items: center;
   background-color: #d9b08c;
+  /* animation: backgroundChange 20s infinite; */
   display: flex;
   font-family: "Newsreader", serif;
   height: 10vh;
   justify-content: center;
   padding-top: 0.5rem;
   width: 100%;
+}
+
+@keyframes backgroundChange {
+  0% {
+    background-color: #d9b08c;
+  }
+  50% {
+    background-color: #d8c3a5;
+  }
+  100% {
+    background-color: #d9b08c;
+  }
 }
 
 #title h1 {
