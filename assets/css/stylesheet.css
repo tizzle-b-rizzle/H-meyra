@@ -315,13 +315,15 @@ body {
     }
   }
   @media screen and (max-width: 366px) {
-    #Tomris_Teacher {
-      margin-bottom: 20px;
-      margin-left: 60px;
-    }
     #main-article {
       align-items: center;
       justify-content: center;
+    }
+    #image-container {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+      width: 100%;
     }
   }
 }
